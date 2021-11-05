@@ -1,0 +1,89 @@
+@media screen and (min-width: 0) and (max-width: 768px) {
+    .body__header .main__content__group {
+        flex-direction: column;
+    }
+
+    .body__header__navigation {
+        flex-direction: column;
+    }
+
+    .body__header__navigation__link.app {
+        order: -1;
+    }
+
+    .main__content__group {
+        padding: 0 5%;
+    }
+
+    .main__content .main__content__group {
+        margin-bottom: 10px;
+    }
+
+    .main__content__courses {
+        justify-content: space-between;
+    }
+
+    .main__content__courses__link {
+        width: 45%;
+    }
+
+    .footer__courses__navigation {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    .main__content__courses {
+        justify-content: space-between;
+    }
+
+    .main__content__courses__link {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main__content__section .main__content__group {
+        flex-direction: column;
+    }
+
+    .main__content__about__video {
+        margin: 0 auto;
+    }
+
+    .footer__courses__areas {
+        margin-right: 10px;
+    }
+
+    .footer__courses__navigation {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .footer__partnership .main__content__group {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__partnership__list {
+        margin: 0;
+        width: 100%;
+    }
+
+    .footer__contact {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer__contact__group {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
